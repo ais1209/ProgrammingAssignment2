@@ -29,7 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
     
     get <- function() x   # get simply retrieves entity x
     setinverse <- function(solve) m <<- solve   # stores result of solve as m
-    getinverse <- function() m   # retrieves value m stored by setsolve
+    getinverse <- function() m   # retrieves value m stored by setinverse
     
     list(set = set, get = get,
          setinverse = setinverse,
